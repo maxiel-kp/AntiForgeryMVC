@@ -27,7 +27,7 @@ namespace AntiForgeryMVC.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Index(string username, string password)
         {
-            return Content("Post Success.");
+            return Content("Save Success.");
         }
 
         public IActionResult Privacy()
